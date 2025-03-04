@@ -1,0 +1,126 @@
+
+#submit-button{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 7px;
+
+}
+body{
+    background-color: rgb(107, 35, 165);
+    margin-left: 7px;
+}
+
+.names{
+    gap: 7%;
+}
+#firstname{
+    padding: 7px;
+    width: 100%;
+}
+#lastname{
+
+    padding: 7px;
+    width: 100%;
+}
+#email{
+    padding: 7px;
+    width: 100%;
+}
+#password{
+    padding: 7px;
+    width: 100%;
+}
+#confirmpassword{
+    padding: 7px;
+    width: 100%;
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;}
+
+    .form{
+        position: absolute;
+        left: 50%;
+        width: 50%;
+        height: 100%;
+        padding: 10%;
+        border: 5px;
+        border-left: 1px solid rgb(218, 33, 208);
+        
+        
+    }
+    h1{
+        margin-top: 100px;
+        position: absolute;
+  
+        margin-left: 250px;
+        
+        color: rgb(189, 12, 189);
+        
+
+    }
+    
+    .icons{
+        bottom: 9cap;
+        left: 75%;
+    }
+    .image{
+        margin-left: 100px;
+        display: flex;
+        gap: 50px;
+
+    
+    
+    }
+    .names{
+        display: flex;
+        width: 100%;
+    }
+    .toggle{
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+    .toggle i {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 10px 0;
+    }
+.img{
+    width: 700px;
+    height: 900px;
+    margin-top: 160px;
+}
+.creation{
+    margin-top: 0px;
+}
+
+    
